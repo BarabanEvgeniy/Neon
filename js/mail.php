@@ -1,7 +1,7 @@
 <?php
 $to = "baraban.jenia@icloud.com"; // адрес куда отправлять письмо
 $subject = "Новый заказ на Напальчник!"; // заголовок письма
-$redirect = "/thanks.html"; // адрес страницы, на которую нужно перейти после отправки письма
+$redirect = "/Success-form.html"; // адрес страницы, на которую нужно перейти после отправки письма
 
 foreach($_POST as $key => $value)
 { $fields .= $key.": ".$value." \r\n"; }
